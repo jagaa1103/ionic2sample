@@ -4,7 +4,9 @@
 
 <ion-content class="page1">
     <ion-list>
-        <ion-item *ngFor="#todo of todos">{{todo}}</ion-item>
+        <ion-item *ngFor="#todo of todos">
+            {{todo.text}}
+        </ion-item>
         <!-- <ion-item>Hello</ion-item>
         <ion-item>World</ion-item> -->
     </ion-list>
