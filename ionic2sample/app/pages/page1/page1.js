@@ -5,6 +5,7 @@ import {Page} from 'ionic/ionic';
 })
 export class Page1 {
     constructor() {
-        // this.todos = ["hello", "world"];
+        this.todos = ["hello", "world"];
+        console.log(this.todos);
     }
 }
